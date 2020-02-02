@@ -17,4 +17,4 @@ RUN mkdir -p /app
 WORKDIR /app
 COPY docker-script.py /app
 
-ENTRYPOINT docker-script.py
+ENTRYPOINT python3 docker-script.py
